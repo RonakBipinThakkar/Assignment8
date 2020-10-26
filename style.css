@@ -1,0 +1,63 @@
+.addButton {
+    width: 100px;
+	margin: 10px 0px 10px 215px;
+	padding: 10px 0px;
+}
+
+.deleteButton {
+	padding: 4px 20px;
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.formRow {
+	display: flex;
+}
+.formRow p {
+	width: 90px;
+}
+
+input {
+	margin: 10px 0px;
+	width: 225px;
+	border: 2px solid #5b9ad5;
+	padding: 5px 0px;
+}
+
+button {
+	background-color: #5b9ad5;
+	color: white;
+	border: none;
+}
+small {
+	color: red;
+	}
+table {
+	width: 800px;
+}
+
+thead tr {
+	background-color: #5b9ad5 !important;
+	color: white;
+	font-weight: bold;
+}
+tr td:nth-of-type(4) {
+	text-align: center;
+}
+
+td {
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	width: 150px;
+	padding: 10px 5px;
+}
+
+tr:nth-of-type(n) {
+	background-color: #d2deef;
+}
+
+tr:nth-of-type(2n) {
+	background-color: #eaeff7;
+}
